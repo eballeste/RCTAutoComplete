@@ -161,6 +161,10 @@ RCTAutoComplete.PropTypes = {
    * @platorm android
    */
   textAlign: PropTypes.oneOf(["start", "center", "end"]),
+  /**
+   * Set highlight and cursor color of the text input.
+   */
+  selectionColor: PropTypes.string,
 
   cellComponent: PropTypes.string,
   suggestions: PropTypes.array,
